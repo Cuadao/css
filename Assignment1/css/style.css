@@ -1,0 +1,130 @@
+header{
+  height: 450px;
+  display: flex;
+  background-image: url('../img/photo0.jpg');
+  align-items: center;
+}
+
+header h1{
+  font-size: 60px;
+  color: white;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+header h2{
+  font-size: 40px;
+  color: white;
+  font-family: 'Seaweed Script', cursive;
+}
+
+.intro h3{
+  font: italic normal 1.4em georgia, sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  color: #567042;
+}
+
+.intro p{
+  font-size: 20px;
+  color:#A8C096;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.main-supporting h3{
+  font: italic normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px;
+	margin-bottom: 0;
+	color: #567042;
+}
+
+.main-supporting p{
+  font-size: 20px;
+  color: #A8C096;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+
+.preamble {
+	clear: right;
+	padding: 0px 10px 0 10px;
+	}
+
+.sidebar {
+	margin-left: 200px;
+  margin-top: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	}
+
+.sidebar .wrapper {
+	font: 20px 'Lexend Deca', sans-serif;
+	background-image: url('../img/photo2.jpg');
+  background-repeat: no-repeat;
+  background-size: 800px 1900px;
+	padding: 60px;
+	margin-top: 0px;
+	width: 300px;
+
+	}
+
+.sidebar h3{
+  opacity: 0.2;
+  background: transparent url('../img/white.png') no-repeat top left;
+  color: black;
+  }
+
+.summary {
+	clear: both;
+	margin: 20px 20px 20px 10px;
+	width: 1000px;
+	/*float: left;*/
+	}
+.summary p {
+font-family: 'Lexend Deca', sans-serif;
+text-align: center;
+}
+.preamble {
+clear: right;
+padding: 0px 10px 0 10px;
+}
+.supporting {
+	padding-left: 10px;
+	margin-bottom: 40px;
+	}
+.participation{
+  background-image: url('../img/photo444.jpg');
+  width: 1340px;
+  background-attachment: fixed;
+  }
+
+.participation h3{
+  font: italic normal 1.4em georgia, sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  color: #567042;
+  }
+
+.participation p{
+    color: #346A5C;
+}
+
+.zen-resources ul li a{
+    color: #ABF471;
+
+  }
+
+.design-archives a{
+  color: #ABF471;
+
+}
+
+.design-selection a{
+  color: #ABF471;
+
+}
+
+.designer-name a{
+  color: #blue;
+
+}

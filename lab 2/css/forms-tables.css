@@ -1,0 +1,199 @@
+header{
+  height: 140px;
+  display: flex;
+  background-color: white;
+  align-items: center;
+}
+
+header a img{
+  /*width: 15%;*/
+  height: 135px;
+}
+
+header h1{
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  color: grey;
+  font-family: 'Sigmar One', cursive;
+  opacity: 1;
+  text-shadow: 3px 3px green;
+}
+
+.slider{
+  display: flex;
+  align-items:center;
+  min-height: 500px;
+  background-image: url('../img/photo1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 50%;
+  background-attachment: fixed;
+  }
+
+  .wrapper {
+    width: 90%; 
+    margin-left: auto; 
+    margin-right: auto; 
+  }
+
+  table {
+    margin-bottom: 50px; 
+  }
+
+  table img {
+    max-width: 100%; 
+  }
+  
+  h1,
+  h2 {
+    text-align:center;
+    padding: 30px 0 10px 0;
+    font-family: 'Sigmar One', cursive;
+  }
+  
+
+.slider h1{
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  color: grey;
+  font-family: 'Sigmar One', cursive;
+  opacity: 1;
+  text-shadow: 3px 3px black;
+}
+
+table {
+  table-layout: fixed; 
+  width: 100%; 
+  border: 3px solid #333; 
+  border-collapse: collapse; 
+  background-color: #585454;
+  font-family: 'Raleway', sans-serif;
+}
+
+caption {
+  padding: 15px; 
+}
+
+th,
+td {
+  padding: 20px; 
+}
+
+thead th:nth-child(1) {
+  width: 30%; 
+}
+
+thead th:nth-child(2) {
+  width: 20%; 
+}
+
+thead th:nth-child(3) {
+  width: 15%; 
+}
+
+thead th:nth-child(4) {
+  width: 35%; 
+}
+
+tbody tr:nth-child(even) {
+  background-color: #7cd383; 
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #fff; 
+}
+
+/* table typography */
+
+thead, 
+tfoot {
+  color: #fff; 
+}
+
+tfoot a {
+  color: #bada55; 
+}
+
+tr td:nth-child(4) {
+  text-align:center; 
+}
+
+input, 
+option, 
+select, 
+textarea,
+option {
+  font-family: inherit; 
+  font-size: 100%; 
+  box-sizing:border-box; 
+}
+
+/* gets rid of weird IE scroll */
+
+textarea {
+  overflow: auto;
+  width: 100%; 
+  height: 200px;
+}
+
+form {
+  width: 50%; 
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Raleway', sans-serif;
+}
+
+fieldset {
+  border: none;
+  padding: 15px 0; 
+  margin-top: 15px; 
+}
+
+legend {
+  width: 100%; 
+  border-bottom: 1px solid #eaeaea; 
+  padding-bottom: 2px; 
+  font-size: 1.4em; 
+}
+
+/*  by default these are inline, let's change to block */ 
+input,
+select,
+label{
+  display: block;
+}
+
+input,
+select {
+  width: 100%; 
+  padding: 10px;
+  border-radius: 5px; 
+  border:none; 
+  font-size: 15px; 
+  outline: 0; 
+  background-color: #eaeaea; 
+  color: #1d1c1c; 
+  box-shadow: 0 1px 0 rgb(0,0,0,0.3) inset; 
+}
+
+select {
+  height: 40px;
+}
+
+label {
+  padding: 25px 0 15px 0; 
+}
+
+input[type="submit"] {
+  font-size: 1.2em; 
+  position: relative; 
+  padding: 15px; 
+  color: #1d1c1c; 
+  background-color: #bada55; 
+  text-align: center; 
+  border: 1px solid #bada55; 
+  border-width: 1px 1px 3px; 
+  margin: 20px 0; 
+}

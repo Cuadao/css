@@ -1,0 +1,171 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  color: #fff;
+  line-height: 1.4em;
+  text-align: center;
+  background-color: #BF3EFF;
+}
+
+header {
+  height: 500px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  background-image: url('../images/awesomefest3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 0 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1,
+h2,
+h3 {
+ font-family: 'Rock Salt', cursive;
+ color: #eaeaea;
+ padding-bottom: 25px;
+}
+
+h1 {
+  font-size: 6em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.images {
+  display:flex;
+  background-image: url('../images/awesomefest2.jpg');
+}
+
+.images div {
+  width: 50%;
+}
+
+/*form*/
+.form{
+	font-family: 'Open Sans Condensed', arial, sans;
+	width: 500px;
+	padding: 30px;
+	background: #FFFFFF;
+	margin: 50px auto;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	-webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+}
+
+.form h2{
+	background: #4D4D4D;
+	text-transform: uppercase;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #797979;
+	font-size: 30px;
+	font-weight: 100;
+	padding: 20px;
+	margin: -30px -30px 30px -30px;
+}
+
+.form input[type="text"],
+.form input[type="date"],
+.form input[type="datetime"],
+.form input[type="email"],
+.form input[type="number"],
+.form input[type="search"],
+.form input[type="time"],
+.form input[type="url"],
+.form input[type="password"],
+.form textarea,
+.form select
+{
+  box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	display: block;
+	width: 100%;
+	padding: 7px;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	background: transparent;
+	margin-bottom: 10px;
+	font: 16px Arial, Helvetica, sans-serif;
+	height: 45px;
+}
+
+.form textarea{
+	resize:none;
+	overflow: hidden;
+}
+
+main {
+  padding-top: 60px 0;
+}
+
+/*table*/
+
+table {
+  color: #333;
+  font-family: Helvetica, Arial, sans-serif;
+  width: 940px;
+  /* Table reset stuff */
+  border-collapse: collapse; border-spacing: 0;
+}
+
+td, th {  border: 0 none; height: 70px; }
+
+th {
+  /* Gradient Background */
+	background: linear-gradient(#333 0%,#444 100%);
+	color: #FFF; font-weight: bold;
+	height: 70px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+}
+
+td { background: #FAFAFA; text-align: center; }
+
+/* Zebra Stripe Rows */
+
+tr:nth-child(even) td { background: #EEE; }
+tr:nth-child(odd) td { background: #FDFDFD; }
+
+tr td:hover { background: #cc00ff; color: #6666ff; }
+
+/* Add border-radius to specific cells! */
+tr:first-child th:nth-child(1) {
+  border-radius: 5px 0 0 0;
+}
+
+tr:first-child th:last-child {
+  border-radius: 0 5px 0 0;
+}
+
+footer p {
+  color: #333;
+  padding: 30px;
+}

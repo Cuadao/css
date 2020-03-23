@@ -1,0 +1,159 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+  }
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 25%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
+
+  @font-face {
+    font-family: 'Chapbook';
+    src: url('../assets/fonts/Chapbook.woff');
+  }
+
+  html{
+    font-size: 10px; 
+    font-family: 'Chapbook';
+    color: #1F0740;
+  }
+  
+  h1 {
+      text-align: center;
+      font-size: 30px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+ 
+  /* a:link {
+    
+  } */
+ 
+  p{
+    font-size: 15px;
+    text-indent: 1em;
+  }
+
+  a {
+    outline: none;
+    padding: 2px 1px 0;
+    font-size: 15px;
+  }
+  
+  section a {
+    text-decoration: underline;
+    color: #a66;
+    font-size: 15px;
+  }
+
+  #lists ul li {
+    list-style-position: inside;
+  }
+
+  section p a{
+    padding-left: 1.5em;
+    background-image: url('../assets/external-link-52.png');
+    background-position: 0% 0; /* x coordinate, y coordinate */
+    background-size: 1.4rem 1.4rem;
+    background-repeat: no-repeat;
+  }
+
+  section ul li{
+    list-style-type: square;
+    font-size: 15px;
+  }
+
+  section ol li{
+    font-size: 15px;
+  }
+  
+  aside a {
+    text-decoration: underline;
+    color: #a66;
+    font-size: 15px;
+  }
+
+  
+  nav ul {
+    padding: 0;
+    width: 100%;
+  }
+
+  nav ul li {
+    list-style:none; 
+  }
+
+  nav a {
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 90%;
+    margin-bottom: 3%;
+    text-align: center;
+    line-height: 3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    }
+  
+  nav li:last-child a {
+    margin-right: 0;
+  }
+  
+  nav a:link, 
+  nav a:visited, 
+  nav a:focus {
+    background-color: none;
+    border: 1px solid #a66;
+    color: #a66; 
+  }
+  
+  nav a:hover {     
+    background-color: #a66;
+    color: white; 
+  }
+  
+  nav a:active {
+    background: #909090;
+    color: white; 
+  }
+  

@@ -90,7 +90,8 @@ h1{
     background: white;
     margin: 20px;
     transition: all 0.3s ease-in-out;
-
+    justify-content: space-evently;
+    box-shadow: 6px 6px 6px 6px rgba(0,2,0,.2);
   }
 
 .pricingTable section .pricingTableHeader{
@@ -103,6 +104,8 @@ h1{
 
 .pricingTable section:first-of-type button {
   border: 1px solid #007bff;
+  font-size: 20px;
+  font-decoration: #007bff;
 }
 
 
@@ -116,8 +119,17 @@ also two points after background-color with out that is not working the code.*/
   background-color: #007bff;
   color: #fff;
   border: transparent;
+  font-size: 20px;
 }
 
+.pricingTable section li{
+  font-size: 20px;
+}
+
+.pricingTable section h3{
+  font-size: 40px;
+  font-style: bold;
+}
 .bannerimage{
   width: 100%;
     background-image: url(image/cat3.jpg);

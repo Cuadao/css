@@ -1,0 +1,144 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  height: 100%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+body {
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+img {
+  max-width: 100%;
+}
+
+/*NAVIGATION BAR*/
+header{
+  height: 80px;
+    display: flex;
+    background-color: #FFFFFF;
+    /*align-items: rigth;*/
+    box-shadow: 0 6px 6px -2px rgba(0,2,0,.2);
+}
+
+
+nav ul{
+  display: flex;
+  list-style: none;
+  align-items: rigth;
+}
+nav ul li{
+  padding: 0px 10px 0px 10px;
+}
+
+nav ul li a{
+  color: #000000;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+}
+
+p{
+  font-size: 18px;
+}
+/*button styles*/
+
+/* EXPLAIN THIS STYLE RULE (1 mark) */
+/*In this CSS code the style is associated to the .pricingTable object focus in button that is showing under the box that include each box.
+The padding is basically in rem that means that is using the root element or dependent.
+*/
+.pricingTable button {
+  padding: .5px 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: .3rem;
+}
+
+main p{
+  text-align: center;
+  font-size: 20px;
+  line-height: 32px;
+  padding-top: 70px;
+}
+
+
+/* Payment Columns*/
+h1{
+  text-align: center;
+  font-size: 40px;
+  line-height: 32px;
+  padding-top: 70px;
+}
+
+.pricingTable section{
+    display: inline-block;
+    border: 1px solid #C8C8C8;
+    border-radius: 10px;
+    background: white;
+    margin: 20px;
+    transition: all 0.3s ease-in-out;
+
+  }
+
+.pricingTable section .pricingTableHeader{
+      padding: 20px;
+      font-size: 20px;
+      color: #909090 ;
+      background: #E0E0E0;
+    }
+
+
+.pricingTable section:first-of-type button {
+  border: 1px solid #007bff;
+}
+
+
+/* FIX THIS STYLE RULE  (2 marks)
+In this part i put comma between each section asociated beacuse it is a syntaxys problem
+also two points after background-color with out that is not working the code.*/
+
+
+.pricingTable section:nth-of-type(2) button,
+.pricingTable section:nth-of-type(3) button {
+  background-color: #007bff;
+  color: #fff;
+  border: transparent;
+}
+
+.bannerimage{
+  width: 100%;
+    background-image: url(image/cat3.jpg);
+    height: 405px;
+    background-color: purple;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+footer{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+/*Pattern Design
+Into the web site https://getbootstrap.com/docs/4.4/examples/pricing/
+
+The pattern website is associated to the Z LAYOUT AND F LAYOUT when you check
+the site is divided into the navigation bar on the top, the header has a important
+ information website, and in the body page has a squares with the prices, is focus
+ more in layout F because the sequence of the website invite go in that way, is simple and organised.
+*/
